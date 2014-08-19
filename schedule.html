@@ -1,0 +1,22 @@
+---
+layout: page
+title: Próximas Palestras
+permalink: /programacao/
+---
+<ul class="event-list">
+  {% for talk in site.data.schedule %}
+    <li>
+		    <time datetime="{{talk.datetime}}">
+            <span class="day">{{talk.day}}</span>
+			      <span class="month">{{talk.month}}</span>
+		        <span class="year">{{talk.year}}</span>
+						<span class="time">{{talk.hour}}</span>
+				</time>
+				<div class="info">
+					<h2 class="title">{{talk.title}}</h2>
+					<p class="desc">{{talk.resume}}</p>
+          <p class="desc text-right">Palestrante: {{talk.author}}</p>
+				</div>
+		</li>
+  {% endfor %}
+</ul>
