@@ -1,0 +1,29 @@
+---
+layout: page
+title: Palestras Realizadas
+permalink: /palestras-realizadas/
+---
+
+<ul id="palestras-realizadas">
+  {% for talk in site.data.talks %}
+  <li>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          <a href="/{{talk.url}}">{{talk.datetime}} - {{ talk.title }}</a>
+        </h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          {{ talk.resume}}
+        </p>
+      </div>
+      <div class="panel-footer text-right">Por
+        <a href="http://twitter.com/{{talk.author-twitter}}" target="_blank">
+          {{talk.author}}
+        </a>
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

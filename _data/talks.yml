@@ -1,0 +1,31 @@
+- title: Beabá do R
+  author: Rodrigo Rocha
+  author-twitter: rodrigorgs
+  author-github: rodrigorgs
+  author-email: rodrigorgs@ufba.br
+  resume: R é uma linguagem gratuita, poderosa e rápida para análise e visualização de dados. Venha tirar suas próprias conclusões!
+  datetime: 13-01-2013
+  day: 13
+  month: jan
+  year: 2013
+  hour: 14:00 - 15:00
+  place: Sala 106, Superintendência de Tecnolgia da Informação – UFBA
+  slides: http://speakerdeck.com/rodrigorgs/beaba-do-r
+  feedback: https://docs.google.com/spreadsheet/viewform?formkey=dEFyQTNzT2hZejJ1TG02UW50dzBUTVE6MQ#gid=0
+  url: 2013/01/13/beaba-do-r
+
+- title: Primeiras Impressões com Git
+  author: Matheus Andrade
+  author-twitter: matheuslao
+  author-github: matheuslao
+  author-email: matheuslao@ufba.br
+  resume: Conheça o controle de versão distribuído Git. Primeiras impressões deste poderoso e rápido sistema designado para desde pequenos até grandes projetos.
+  datetime: 09-01-2013
+  day: 09
+  month: jan
+  year: 2013
+  hour: 14:00 - 15:00
+  place: Sala 106, Superintendência de Tecnolgia da Informação – UFBA
+  slides: http://speakerdeck.com/matheuslao/git-primeiras-impressoes
+  feedback: https://docs.google.com/spreadsheet/viewform?formkey=dEFyQTNzT2hZejJ1TG02UW50dzBUTVE6MQ#gid=0
+  url: 2013/01/09/git-primeiras-impressoes
