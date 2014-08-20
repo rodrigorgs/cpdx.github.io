@@ -72,6 +72,11 @@ com algumas customizacoes
 	font-weight: 300;
 	margin: 0px;
 }
+.event-list > li > .info > .author{
+  font-size: 90%;
+  font-weight: bold;
+}
+
 .event-list > li > .info > ul {
 	display: table;
 	list-style: none;
