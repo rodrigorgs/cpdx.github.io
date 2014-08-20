@@ -3,8 +3,9 @@ article{
   margin-top: 20px;
 }
 
-#palestras-realizadas li{
+#palestras-realizadas {
   list-style: none;
+  padding: 0px;
 }
 
 /*
